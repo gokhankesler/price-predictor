@@ -15,7 +15,6 @@ export PRINT_HELP_PYSCRIPT
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-
 files: ## List competition files
 	kaggle competitions files house-prices-advanced-regression-techniques 
 
@@ -25,7 +24,6 @@ download: ## Download competition files
 
 req: ## update requirements
 	pip freeze > requirements.txt
-
 
 m="This is my submission."
 f=$$(ls -td submissions/*csv | head -1)
