@@ -1,3 +1,5 @@
 # Environment
 .venv
 
+# Submission results
+submissions/results.txt
