@@ -8,7 +8,7 @@ class AveragingModels(BaseEstimator, RegressorMixin, TransformerMixin):
     def __init__(self, models):
         self.models = models
 
-    # we define clones of the original models to fit the data in
+    # We define clones of the original models to fit the data in
     def fit(self, X, y):
         self.models_ = [clone(x) for x in self.models]
 
