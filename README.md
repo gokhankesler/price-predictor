@@ -82,9 +82,8 @@ Here is the basic instructions to run notebooks.
 
 
 ### Prerequisites
-Python 3.6 or later is required.
-
-You can obtain from [https://www.python.org](https://www.python.org)
+* Python 3.6 or later is required. [https://www.python.org](https://www.python.org)
+* Homebrew [https://brew.sh](https://brew.sh)
 
 ### Installation
 
